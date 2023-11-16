@@ -1,0 +1,112 @@
+/*_________________________________________________________________________*/
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+/*_________________________________________________________________________*/
+
+@media (max-width: 1024px) {
+    .hebergements-and-populaires section {
+            padding: 15px 5px 5px 5px;
+        }
+
+.hebergements-cards {
+    margin: 0 15px 0 15px ;
+}
+.header__section-title {
+    margin: 0;
+    font-size: 1.6vw;
+    margin-left: 0px;
+}
+
+
+.populaires-cards {
+    margin: 0 15px 0 15px;
+}
+
+.header__subtitle {
+    font-size: 1.5vw;
+}
+.affiche__title-filter {
+    font-size: 1.7vw;
+}
+.header__search-input {
+    width: 230px;
+    font-size: 1.7vw;
+    
+}
+
+.header__search {
+    margin-bottom: 25px;
+}
+.section-title {
+    margin: 0;
+    font-size: 1.6vw;
+    margin-left: 23px;
+}
+
+
+.header__filter-text {
+    height: 49px;
+    padding-left: 8px;
+    padding-right: 0px;
+    border-radius: 0 25px 25px 0;
+}
+.filtre__icons {
+    font-size: 2.1vw;
+    padding-left: 3px;
+}
+.header__filters {
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+.header__info-text{
+    font-size: 1.4vw;
+}
+
+
+.hebergements-cards .card {
+    white-space: nowrap;
+}
+
+.title-filter {
+    font-size: 1.4vw;
+    font-weight: 700;
+    color: #000000;
+    line-height: 21px;
+    margin-top: 22px;
+    margin-bottom: 17px;
+}
+
+.affiche__filter {
+    font-size: 1.4vw;
+    font-weight: 700;
+    color: #000000;
+    line-height: 21px;
+    margin-top: 22px;
+    margin-bottom: 17px;
+    margin-left: 18px;
+}
+
+
+.populaires-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 1.3vw;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 4px;
+font-size: 1.3vw;
+}
+
+.activites-cards .card-title {
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 1.3vw;
+}
+
+}
